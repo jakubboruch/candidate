@@ -1,8 +1,8 @@
 # Envoy FED Candidate Demo
 
-This is a demo project to gauge a candidate's HTML, CSS and JS knowledge.
+This is a demo project to gauge a candidate's HTML, CSS and JS knowledge. It uses Node and npm modules to setup local server.
 
-It uses Node and npm modules to setup local server.
+_**If you are a Vue developer**, and you are applying for a role using Vue, please implement this test using Vue 2, Vue-router and Vuex._
 
 ## Fork the repository
 
@@ -11,7 +11,7 @@ This repository is read only so to push your changes you'll need to fork it.
 - In Bitbucket click the `+` button on the left hand navigation
 - In the _GET TO WORK_ section, choose _Fork this repository_
 - In your forked repo click the _Settings_ cog in the left hand navigation and choose _General_ / _User and group access_
-  Give read access to `lukasz.pietraszek@uk.kps.com`, `melanie.berrut@uk.kps.com`, `zorica.janjic@uk.kps.com` and `nik.dyankov@uk.kps.com`
+  Give read access to `michael.reader@uk.kps.com`, `melanie.berrut@uk.kps.com`, `zorica.janjic@uk.kps.com` and `nik.dyankov@uk.kps.com`
 
 ## Getting Started
 
