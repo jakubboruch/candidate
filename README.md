@@ -61,11 +61,11 @@ It will watch for all the changes in `src/less` directory - however it won't aut
 
 - Use `app/form.html` file
 - Add a form with following fields:
-  - name: text only, no case sensitive
-  - surname: text only, no case sensitive
-  - email: alphanumeric, no case sensitive must contain `@` symbol and domain name
-  - phone: can contain `+` (only in front of the number) and `space` characters and numbers only
-  - password: must be at least 8 long and contain at least 1 special character
+    - name: text only, no case sensitive
+    - surname: text only, no case sensitive
+    - email: alphanumeric, no case sensitive must contain `@` symbol and domain name
+    - phone: can contain `+` (only in front of the number) and `space` characters and numbers only
+    - password: must be at least 8 long and contain at least 1 special character
 - Display error messages for each invalid field
 - All fields are required and needs to be valid before form can be submitted
 - Use only vanilla JS for this tasks (do not use plugins or HTML5 API)
@@ -76,3 +76,31 @@ It will watch for all the changes in `src/less` directory - however it won't aut
 Make sure you shared repo access to the reviewers ("Fork the repository" section)
 
 Please email `stephanie.wilson@envoydigital.com` so that we know your work is ready to be reviewed.
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Run your unit tests
+```
+npm run test:unit
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
