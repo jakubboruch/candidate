@@ -1,0 +1,16 @@
+{
+  "product_list": {
+    "most_relevant": "Most relevant",
+    "price_asc": "Price ASC",
+    "price_desc": "Price DESC",
+    "name_asc": "Name ASC",
+    "you_save": "You save",
+    "results": "No results  | result | results",
+    "size": "Size",
+    "price_from": "Price from",
+    "price_to": "Price to"
+  },
+  "common": {
+    "filters": "Filters"
+  }
+}
