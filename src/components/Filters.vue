@@ -3,13 +3,13 @@
     <h2 class="filters-container__title">{{ $t("common.filters") }}</h2>
     <div class="filters">
       <div class="filters__filter" v-for="(filter, i) in filters" :key="i">
-        <label class="filters__label" :for="filter.name">{{
+        <label class="filters__label" :for="'filter:' + filter.name">{{
           filter.label
         }}</label>
         <compenent
           class="filters__field"
           :is="filter.component"
-          :id="filter.name"
+          :id="'filter:' + filter.name"
           :type="filter.type"
           :value="value && value[filter.name]"
           @input="onChange($event, filter.name)"
@@ -59,7 +59,7 @@ export default {
 .filters-container {
   margin: 40px 0;
   &__title {
-    font-size: 30px;
+    font-size: $fontSizeLg;
   }
 }
 .filters {
@@ -70,8 +70,13 @@ export default {
     flex-direction: column;
     margin: 10px 0;
   }
+  &__label {
+    font-size: $fontSizeSm;
+    margin-bottom: 5px;
+  }
   &__field {
     height: 30px;
+    border: 1px solid $lightGray;
   }
 }
 @media (min-width: $breakpointMd) {

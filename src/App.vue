@@ -6,8 +6,8 @@
         <router-link to="/contact-form">Contact Form</router-link>
       </div>
     </header>
-    <router-view />
-    <footer>Footer</footer>
+    <router-view class="content" />
+    <footer class="footer">Footer</footer>
   </div>
 </template>
 
@@ -15,6 +15,12 @@
 @import "assets/scss/main.scss";
 * {
   box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 html {
   background-color: $cornflowerBlue;
@@ -26,10 +32,20 @@ html {
   color: $secondaryColor;
   margin: 0 10px;
 }
-
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
 @media (min-width: $breakpointSm) {
   #app {
     margin: 0 100px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
   }
 }
 

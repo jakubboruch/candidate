@@ -10,7 +10,24 @@
     "price_from": "Price from",
     "price_to": "Price to"
   },
+  "contact_form": {
+    "title": "Contact form",
+    "name": "Name",
+    "surname": "Surname",
+    "email": "E-mail",
+    "phone": "Phone",
+    "password": "Password",
+    "submit": "Submit",
+    "form_can_be_sent": "The form can be sent"
+  },
   "common": {
     "filters": "Filters"
+  },
+  "validation_errors": {
+    "field_is_required": "Field is required",
+    "field_should_only_contain_letters": "Field should only contain letters",
+    "email_is_not_valid": "E-mail is not valid",
+    "phone_number_is_not_valid": "Phone number is not valid - can contain '+' in front of the number and space characters and numbers only",
+    "password_is_not_valid": "Password is not valid - must be at least 8 long and contain at least 1 special character (!@#$%^&*)"
   }
 }

@@ -104,7 +104,7 @@ export default {
   }
   &__name {
     margin: 0;
-    font-size: 26px;
+    font-size: $fontSizeMd;
     font-weight: 600;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -120,13 +120,13 @@ export default {
   &__old-price {
     margin-left: 10px;
     text-decoration: line-through;
-    font-size: 18px;
+    font-size: $fontSizeSm;
     color: $lightGray;
   }
   &__savings {
     margin-left: 10px;
     color: $primaryColorDark;
-    font-size: 18px;
+    font-size: $fontSizeSm;
   }
   &__rating {
     margin-left: 5px;
@@ -134,7 +134,7 @@ export default {
     bottom: -2px;
   }
   &__size {
-    font-size: 18px;
+    font-size: $fontSizeSm;
     font-family: $fontFamilySerif;
     color: $gray;
   }

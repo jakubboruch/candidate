@@ -197,7 +197,7 @@ export default {
     align-items: center;
   }
   &__results {
-    font-size: 30px;
+    font-size: $fontSizeLg;
     font-weight: 600;
   }
   &__sorting {
@@ -225,7 +225,7 @@ export default {
   }
 }
 .btn {
-  font-size: 30px;
+  font-size: $fontSizeLg;
   border: none;
   cursor: pointer;
   padding: 10px;
